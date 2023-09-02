@@ -20,7 +20,7 @@ export default function Card({ cardItem }) {
       }
     }
     if (food.lenght !== 0) {      
-      if (food.size === size) {
+      if (food.size === size) {        
         await dispatch({
           type: "UPDATE",
           id: cardItem._id,
